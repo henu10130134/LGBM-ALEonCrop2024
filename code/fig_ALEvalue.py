@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib.patches import Patch
 # 加载CSV文件
-df = pd.read_csv(r'\csv\nor-2d-玉米%.csv')  # 替换玉米/小麦
+df = pd.read_csv(r'\data\nor-2d-玉米%.csv')  # 替换玉米/小麦
 # # 设置全局字体
 plt.rcParams['font.family'] = 'Times New Roman'
 plt.rcParams['font.weight'] = 'bold'  # 设置字体加粗
