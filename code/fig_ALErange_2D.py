@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 # 读取CSV文件
-df = pd.read_csv(r'\csv\nor-2d-玉米%.csv')   # m/w
+df = pd.read_csv(r'\data\nor-2d-玉米%.csv')   # m/w
 # 按照列的值对数据进行排序
 df_sorted = df.sort_values(by='dif', ascending=False)
 plt.rcParams['font.family'] = 'Times New Roman'
