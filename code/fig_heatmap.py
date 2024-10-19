@@ -11,7 +11,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # 读取Excel文件
-excel_file = (r'\csv\heat-玉米.xlsx')  # 替换为你的Excel文件路径
+excel_file = (r'\data\heat-玉米.xlsx')  # 替换为你的Excel文件路径
 df = pd.read_excel(excel_file, index_col=0)  # 假设第一列是索引列，也就是变量名
 plt.rcParams['font.family'] = 'Times New Roman'
 plt.rcParams['font.weight'] = 'bold'  # 设置字体加粗
